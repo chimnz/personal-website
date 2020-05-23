@@ -1,0 +1,14 @@
+@font-face {
+	font-family: IntroBlack;
+	src: url(../fonts/IntroDemo-BlackCAPS.ttf);
+}
+
+@font-face {
+	font-family: MetropolisBold;
+	src: url(../fonts/Metropolis-Bold.otf);
+}
+
+@font-face {
+	font-family: MetropolisMedium;
+	src: url(../fonts/Metropolis-Medium.otf);
+}
