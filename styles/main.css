@@ -25,11 +25,8 @@ a {
 	text-decoration: none;
 }
 
-section {
-	display: flex;
-}
-
 h1 {
+	width: 100%;
 	margin: 0;
 	padding: 3rem;
 	font-size: 2.5em;
@@ -38,6 +35,7 @@ h1 {
 }
 
 h2 {
+	width: 100%;
 	margin: 0;
 	padding: 3rem;
 	font-size: 2.15em;
@@ -64,12 +62,11 @@ p > a {
 	border-bottom: dashed;
 }
 
-.homepage section:hover {
+.homepage h1:hover {
 	background-color: wheat;
 }
-
-.biopage section {
-	flex-direction: column;
+.homepage h2:hover {
+	background-color: wheat;
 }
 
 /* large screens */
