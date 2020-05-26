@@ -30,10 +30,6 @@ nav {
 	flex-direction: column;
 }
 
-nav > div:hover {
-	background-color: wheat;
-}
-
 h1 {
 	margin: 0;
 	padding: 3rem;
@@ -69,6 +65,10 @@ p > a {
 	border-bottom: dashed;
 }
 
+.homepage > nav > div:hover {
+	background-color: wheat;
+}
+
 .biopage > nav {
 	flex-direction: row;
 }
@@ -84,6 +84,10 @@ p > a {
 .home-button {
 	width: 100%; height: 100%;
 	display: flex;
+}
+
+.home-button:hover {
+	background-color: wheat;
 }
 
 .home-button img {
