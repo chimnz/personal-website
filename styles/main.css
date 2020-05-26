@@ -45,10 +45,17 @@ h1 {
 
 h2 {
 	margin: 0;
+	padding: 3rem;
+	font-size: 2.15em;
+	font-family: IntroBlack;
+	text-transform: uppercase;
+}
+
+h3 {
+	margin: 0;
 	padding: 1rem 3rem;
 	font-size: 1.33em;
 	font-family: MetropolisBold, sans-serif;
-	text-transform: uppercase;
 }
 
 p {
