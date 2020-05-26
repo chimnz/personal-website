@@ -8,9 +8,15 @@ html {
 	font-size: 10px;
 }
 
+:root {
+	--bg-color: blanchedalmond;
+	--font-color: rgb(48, 29, 13);
+	--hover-color: wheat;
+}
+
 body {
-	background-color: blanchedalmond;
-	color: rgb(48, 29, 13);
+	background-color: var(--bg-color);
+	color: var(--font-color);
 	font-size: 3rem;
 }
 
@@ -66,7 +72,7 @@ p > a {
 }
 
 .homepage > nav > div:hover {
-	background-color: wheat;
+	background-color: var(--hover-color);
 }
 
 .biopage > nav {
@@ -87,7 +93,7 @@ p > a {
 }
 
 .home-button:hover {
-	background-color: wheat;
+	background-color: var(--hover-color);
 }
 
 .home-button img {
