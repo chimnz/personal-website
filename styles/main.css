@@ -12,12 +12,6 @@ body {
 	background-color: blanchedalmond;
 	color: rgb(48, 29, 13);
 	font-size: 3rem;
-
-	/* horizontally and vertically center the main element */
-	min-height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
 }
 
 main {
@@ -78,6 +72,18 @@ p > a {
 	flex-direction: column;
 }
 
+/* large screens */
+@media (min-width: 600px) {
+	body {
+		/* horizontally and vertically center the main element */
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+}
+
+/* small screens */
 @media (max-width: 600px) {
 	body {
 		font-size: 2rem;
