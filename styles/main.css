@@ -101,6 +101,14 @@ p > a {
 	margin: auto;
 }
 
+.post-list > div:hover {
+	background-color: var(--hover-color);
+}
+
+.page-reload:hover {
+	background-color: var(--hover-color);
+}
+
 /* large screens */
 @media (min-width: 600px) {
 	body {
