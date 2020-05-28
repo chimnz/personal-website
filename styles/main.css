@@ -75,15 +75,15 @@ p > a {
 	background-color: var(--hover-color);
 }
 
-.biopage > nav {
+.simplified-nav  {
 	flex-direction: row;
 }
 
-.biopage > nav > div:nth-child(1) {
+.simplified-nav > div:nth-child(1) {
 	flex-basis: 70%;
 }
 
-.biopage > nav > div:nth-child(2) {
+.simplified-nav > div:nth-child(2) {
 	flex-basis: 30%;
 }
 
