@@ -12,3 +12,8 @@
 	font-family: MetropolisMedium;
 	src: url(../fonts/Metropolis-Medium.otf);
 }
+
+@font-face {
+	font-family: MetropolisRegular;
+	src: url(../fonts/Metropolis-Regular.otf);
+}

@@ -109,6 +109,11 @@ p > a {
 	background-color: var(--hover-color);
 }
 
+.blogpost p {
+	font-size: 0.75em;
+	font-family: MetropolisRegular;
+}
+
 /* large screens */
 @media (min-width: 600px) {
 	body {
