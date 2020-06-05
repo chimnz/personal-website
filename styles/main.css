@@ -18,6 +18,8 @@ body {
 	background-color: var(--bg-color);
 	color: var(--font-color);
 	font-size: 3rem;
+	display: flex;
+	justify-content: center;
 }
 
 main {
@@ -113,17 +115,6 @@ p > a {
 	font-size: 0.85em;
 	font-family: MetropolisRegular;
 	line-height: 35px;
-}
-
-/* large screens */
-@media (min-width: 600px) {
-	body {
-		/* horizontally and vertically center the main element */
-		min-height: 100vh;
-		display: flex;
-		align-items: center;
-		justify-content: space-around;
-	}
 }
 
 /* small screens */
