@@ -20,6 +20,7 @@ body {
 	font-size: 3rem;
 	display: flex;
 	justify-content: center;
+	font-family: MetropolisRegular;
 }
 
 main {
@@ -65,7 +66,6 @@ p {
 	margin: 0;
 	padding: 1rem 3rem;
 	font-size: 1em;
-	font-family: MetropolisMedium, sans-serif;
 	line-height: 40px;
 }
 
@@ -109,7 +109,6 @@ p > a {
 
 .post-list p {
 	padding: 0 3rem;
-	font-family: MetropolisRegular;
 }
 
 .page-reload:hover {
@@ -118,7 +117,6 @@ p > a {
 
 .blogpost p {
 	font-size: 0.85em;
-	font-family: MetropolisRegular;
 	line-height: 35px;
 }
 
