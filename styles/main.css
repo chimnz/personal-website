@@ -107,6 +107,11 @@ p > a {
 	background-color: var(--hover-color);
 }
 
+.post-list p {
+	padding: 0 3rem;
+	font-family: MetropolisRegular;
+}
+
 .page-reload:hover {
 	background-color: var(--hover-color);
 }
