@@ -73,6 +73,10 @@ p > a {
 	border-bottom: dashed;
 }
 
+.homepage nav div {
+	text-align: center;
+}
+
 .homepage > nav > div:hover {
 	background-color: var(--hover-color);
 }
@@ -127,5 +131,9 @@ p > a {
 
 	h2 {
 		font-size: 2.15em;
+	}
+
+	.homepage nav div {
+		text-align: unset;
 	}
 }
