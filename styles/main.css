@@ -9,9 +9,9 @@ html {
 }
 
 :root {
-	--bg-color: blanchedalmond;
-	--font-color: rgb(48, 29, 13);
-	--hover-color: wheat;
+	--bg-color: whitesmoke;
+	--font-color: rgb(63, 63, 63);
+	--hover-color: gainsboro;
 }
 
 body {
